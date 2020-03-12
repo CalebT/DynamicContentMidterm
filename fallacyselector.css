@@ -1,0 +1,57 @@
+#fallacyselector {
+    display: block;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 150px;
+}
+
+#option1 button {
+    border: 1px solid black;
+    background-color: #E4C7FE;
+    border-radius: 5px;
+    width: 13vw;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    position: relative;
+    left: 12.5%
+}
+
+#option2 button {
+    border: 1px solid black;
+    background-color: #E4C7FE;
+    border-radius: 5px;
+    width: 13vw;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    position: relative;
+    left: 12.5%
+}
+
+
+#option3 button {
+    border: 1px solid black;
+    background-color: #E4C7FE;
+    border-radius: 5px;
+    width: 13vw;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    position: relative;
+    left: 12.5%
+}
+
+
+.fallacy-pics {
+    width: 300px;
+    height: 300px;
+}
+
