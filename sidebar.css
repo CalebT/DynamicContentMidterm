@@ -1,0 +1,50 @@
+body, html{
+    margin: 0;
+}
+
+.material-icons.md-48 {
+    font-size: 48px; 
+    position: absolute;
+    left:0px;
+    transition:left 1s
+}
+
+#content{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+#sidebar{
+    width: 300px;
+    min-width: 200px;
+    height: 100vh;
+    background-color: #DEDEDE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left:-300px;
+    transition:left 1s
+}
+
+button{
+    width: 200px;
+    height: 75px;
+    /* display: block;
+    margin: auto; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 2px solid white; 
+}
+
+#home{
+    background-color: #B19CD9
+}
+#tut{
+    background-color: #40E0D0
+}
+#quiz{
+    background-color: #90EE90
+}
