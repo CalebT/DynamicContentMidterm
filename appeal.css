@@ -1,0 +1,51 @@
+#appeal {
+    display: block;
+}
+
+.page-title {
+    font-size: x-large;
+    margin-left: 5vw;
+}
+
+.main-article {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.fallacy-example {
+    display: flex;
+}
+
+.fallacy-image {
+    width: 35vw;
+    border-radius: 5px;
+}
+
+.description {
+    font-size: 50pt;
+}
+
+.fallacy-button {
+    border: 1px solid black;
+    background-color: #E4C7FE;
+    border-radius: 5px;
+    width: 13vw;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    position: relative;
+    left: 12.5%
+}
+
+.right-side {
+    margin-top: 5%;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 85px;
+}
