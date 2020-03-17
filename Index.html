@@ -4,9 +4,10 @@
         <title>Fallacies</title>
         <link href="main.css" rel="stylesheet">
         <link href="fallacyselector.css" rel="stylesheet">
+        <link href="appeal.css" rel="stylesheet">
     </head>
     <body>
-        <div id="ham-menu"> Menu</div>
+        <img src="menu.svg">
         <!-- Main page Start -->
         <div id="mainpage">
             <h1 id="title">Fallacies</h1>
@@ -18,7 +19,7 @@
         </div>            
         <!-- Main page End -->
 
-        <!-- Fallacies selector start-->
+        <!-- Fallacy selector start-->
         <div id="fallacyselector">
             <div class="options">
                 <div id="option1">
@@ -35,6 +36,29 @@
                 </div>
             </div>
         </div>
+        <!-- Fallacy selector end -->
 
+        <!-- Appeal page start -->
+        <div id="appeal">
+            <div class="page-title">
+                <h1>Appeal to Authority</h1>
+            </div>
+            <div class="main-article">
+                <div class="fallacy-example">
+                    <img onclick="previousImage()" class="before" src="navigate_before-24px.svg">
+                    <img class="fallacy-image" src="Doctor.svg">
+                    <img onclick="nextImage()" class="next" src="navigate_next-24px.svg">
+                </div>
+                <div class="right-side">
+                    <p class="description">Because an authority<br> thinks something, it <br>must therefore be true.</p>
+                    <div id="buttons">
+                        <button class="fallacy-button">Previous Fallacy</button>
+                        <button class="fallacy-button">Next Fallacy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Appeal page end -->
+        <script src="appeal.js"></script>
     </body>
 </html>
