@@ -1,0 +1,60 @@
+#topheading {
+    text-align: center;
+}
+
+.question1 {
+    justify-content: space-evenly;
+}
+
+#question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    align-items: center;
+}
+
+.picture {
+    
+}
+
+.grid-container
+{
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: auto auto;
+    /* align-content: space-between; */
+    justify-content: center;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+.box {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+.buttons-style {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(160, 219, 72);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
