@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 150px;
+    top: 25vh;
 }
 
 #option1 button {
@@ -19,7 +19,8 @@
     justify-content: center;
     font-size: larger;
     position: relative;
-    left: 12.5%
+    left: 12.5%;
+    margin-top: 20px;
 }
 
 #option2 button {
@@ -32,7 +33,8 @@
     justify-content: center;
     font-size: larger;
     position: relative;
-    left: 12.5%
+    left: 12.5%;
+    margin-top: 20px;
 }
 
 
@@ -46,12 +48,15 @@
     justify-content: center;
     font-size: larger;
     position: relative;
-    left: 12.5%
+    left: 12.5%;
+    margin-top: 20px;
 }
 
 
 .fallacy-pics {
     width: 300px;
     height: 300px;
+    border-radius: 10px;
+    filter: blur(5px);
 }
 

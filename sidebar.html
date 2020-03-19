@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sidebar</title>
+        <link href="sidebar.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    </head>
+    <body>
+        <i class="material-icons md-48" onclick='SidebarToggle()'>menu</i>
+        <div id='sidebar'>
+            <button id='home'>Home</button>
+            <button id='tut'>Tutorial</button>
+            <button id='quiz'>Take a Quiz!</button>
+        </div>
+        <div id='content' onclick='SidebarClose()'></div>
+    </body>
+    <script src='sidebar.js'></script>
+</html>

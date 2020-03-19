@@ -2,10 +2,14 @@
     display: none;
 }
 
-#title {
+#title-main {
     font-size: 75pt;
+    position: fixed;
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 25vh;
+    top: 40px;
 }
 
 .tpOptions {
@@ -18,35 +22,37 @@
 }
 
 #tutorial {
-    border: 1px solid black;
+    border: 2px solid white;
     background-color: #A0FBEB;
     border-radius: 5px;
     width: 10vw;
-    height: 50px;
+    height: 100px;
     padding: 5px;
     display: flex;
     justify-content: center;
-    font-size: larger;
+    font-size: 24pt;
 }
 
 #fallacies {
-    border: 1px solid black;
+    border: 2px solid white;
     background-color: #E4C7FE;
     border-radius: 5px;
     width: 15vw;
+    height: 100px;
     padding: 5px;
     display: flex;
     justify-content: center;
-    font-size: larger;
+    font-size: 24pt;
 }
 
 #quiz {
-    border: 1px solid black;
+    border: 2px solid white;
     background-color: #C2F8B6;
     border-radius: 5px;
     width: 10vw;
+    height: 100px;
     padding: 5px;
     display: flex;
     justify-content: center;
-    font-size: larger;
+    font-size: 24pt;
 }
