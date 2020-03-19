@@ -2,63 +2,133 @@
 <html lang="en">
     <head>
         <title>Fallacies</title>
+        <link href="sidebar.css" rel="stylesheet">
         <link href="main.css" rel="stylesheet">
         <link href="fallacyselector.css" rel="stylesheet">
         <link href="appeal.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="genetic.css" rel="stylesheet">
+        <link href="strawman.css" rel="stylesheet">
     </head>
     <body>
-        <img src="menu.svg">
-        <!-- Main page Start -->
-        <div id="mainpage">
-            <h1 id="title">Fallacies</h1>
-            <div class="tpOptions">
-                <button id="tutorial">Tutorial!</button>
-                <button id="fallacies">Learn About Fallacies!</button>
-                <button id="quiz">Take a Quiz!</div>
-            </div>
-        </div>            
-        <!-- Main page End -->
+        
 
-        <!-- Fallacy selector start-->
-        <div id="fallacyselector">
-            <div class="options">
-                <div id="option1">
-                    <img class="fallacy-pics" src="Doctor.svg">
-                    <button>Appeal to Authority</button>
+            <!-- Main page Start -->
+            <div id="mainpage" onclick="SidebarClose()">
+                <div id="title-main">
+                    <h1>Fallacies</h1>
                 </div>
-                <div id="option2">
-                    <img class="fallacy-pics" src="Doctor.svg">
-                    <button>Another fallacy</button>
+                <div class="tpOptions">
+                    <button id="tutorial">Tutorial!</button>
+                    <button id="fallacies" onclick="learn()">Learn About Fallacies!</button>
+                    <button id="quiz">Take a Quiz!
                 </div>
-                <div id="option3">
-                    <img class="fallacy-pics" src="Doctor.svg">
-                    <button>the last fallacy</button>
-                </div>
-            </div>
-        </div>
-        <!-- Fallacy selector end -->
+            </div>           
+            <!-- Main page End -->
 
-        <!-- Appeal page start -->
-        <div id="appeal">
-            <div class="page-title">
-                <h1>Appeal to Authority</h1>
-            </div>
-            <div class="main-article">
-                <div class="fallacy-example">
-                    <img onclick="previousImage()" class="before" src="navigate_before-24px.svg">
-                    <img class="fallacy-image" src="Doctor.svg">
-                    <img onclick="nextImage()" class="next" src="navigate_next-24px.svg">
+            <!-- Fallacy selector start-->
+            <div id="fallacyselector" onclick="SidebarClose()">
+                <div class="options">
+                    <div id="option1">
+                        <img class="fallacy-pics" src="Doctor.svg" onclick="appeal()">
+                        <button onclick="appeal()">Appeal to Authority</button>
+                    </div>
+                    <div id="option2">
+                        <img class="fallacy-pics" src="genetic1.jpg" onclick="genetic()">
+                        <button onclick="genetic()">Genetic</button>
+                    </div>
+                    <div id="option3">
+                        <img class="fallacy-pics" src="q1.png" onclick="strawman()">
+                        <button onclick="strawman()">Strawman</button>
+                    </div> 
                 </div>
-                <div class="right-side">
-                    <p class="description">Because an authority<br> thinks something, it <br>must therefore be true.</p>
-                    <div id="buttons">
-                        <button class="fallacy-button">Previous Fallacy</button>
-                        <button class="fallacy-button">Next Fallacy</button>
+            </div>
+            
+            <!-- Fallacy selector end -->
+
+            <!-- Appeal page start -->
+            <div id="appeal" onclick="SidebarClose()">
+                <div class="page-title">
+                    <h1>Appeal to Authority</h1>
+                </div>
+                <div class="main-article">
+                    <div class="fallacy-example">
+                        <img onclick="previousImage()" class="before" src="navigate_before-24px.svg">
+                        <img class="fallacy-image" src="Doctor.svg">
+                        <img onclick="nextImage()" class="next" src="navigate_next-24px.svg">
+                    </div>
+                    <div class="right-side">
+                        <p class="description">Because an authority<br> thinks something, it <br>must therefore be true.</p>
+                        <div id="buttons">
+                            <button class="fallacy-button" onclick="prevFal1()">Previous Fallacy</button>
+                            <button class="fallacy-button" onclick="nextFal1()">Next Fallacy</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Appeal page end -->
+            <!-- Appeal page end -->
+
+            <!-- Genetic page start -->
+            <div id="genetic" onclick="SidebarClose()">
+                <div class="page-title">
+                    <h1>Genetic</h1>
+                </div>
+                <div class="main-article">
+                    <div class="fallacy-example">
+                        <img onclick="previousImage2()" class="before" src="navigate_before-24px.svg">
+                        <img class="fallacy-image2" src="genetic1.jpg">
+                        <img onclick="nextImage2()" class="next" src="navigate_next-24px.svg">
+                    </div>
+                    <div class="right-side">
+                        <p class="description">Deciding if something<br> is good or bad based<br> only on who <br>or where it came from</p>
+                        <div id="buttons">
+                            <button class="fallacy-button" onclick="prevFal2()">Previous Fallacy</button>
+                            <button class="fallacy-button" onclick="nextFal2()">Next Fallacy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Genetic page end -->
+
+            <!-- Strawman page start -->
+            <div id="strawman" onclick="SidebarClose()">
+                <div class="page-title">
+                    <h1>Strawman</h1>
+                </div>
+                <div class="main-article">
+                    <div class="fallacy-example">
+                        <img onclick="previousImage3()" class="before" src="navigate_before-24px.svg">
+                        <img class="fallacy-image3" src="q1.png">
+                        <img onclick="nextImage3()" class="next" src="navigate_next-24px.svg">
+                    </div>
+                    <div class="right-side">
+                        <p class="description">You misrepresented<br>someone's argument<br>to make it easier<br>to attack</p>
+                        <div id="buttons">
+                            <button class="fallacy-button" onmouseover="" onclick="prevFal3()">Previous Fallacy</button>
+                            <button class="fallacy-button" onclick="nextFal3()">Next Fallacy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Strawman page end -->
+
+            <!-- Sidebar start -->
+        <div id="sidebar-menu">
+            <i class="material-icons md-48" onclick='SidebarToggle()'>menu</i>
+            <div id='sidebar'>
+                <button class='menu-button' id="home" onclick="sideHome(),SidebarClose()">Home</button>
+                <button class='menu-button' id="tut" onclick="SidebarClose()">Tutorial</button>
+                <button class='menu-button' id="quiz-menu" onclick="SidebarClose()">Take a Quiz!</button>
+            </div>
+        </div> 
+            <!-- <div id='content' onclick='SidebarClose()'></div> -->
+        
+        <!-- Sidebar end -->
+
         <script src="appeal.js"></script>
+        <script src='sidebar.js'></script>
+        <script src="genetic.js"></script>
+        <script src="strawman.js"></script>
+        <script src="navigation.js"></script>
     </body>
 </html>
