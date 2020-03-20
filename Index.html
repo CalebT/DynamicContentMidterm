@@ -10,6 +10,7 @@
         <link href="genetic.css" rel="stylesheet">
         <link href="strawman.css" rel="stylesheet">
         <link href="quiz.css" rel="stylesheet">
+        <link href="tutorial.css" rel="stylesheet">
     </head>
     <body>
         
@@ -20,7 +21,7 @@
                     <h1>Fallacies</h1>
                 </div>
                 <div class="tpOptions">
-                    <button id="tutorial">Tutorial!</button>
+                    <button id="tutorial-nav" onclick="tutorial()">Tutorial!</button>
                     <button id="fallacies" onclick="learn()">Learn About Fallacies!</button>
                     <button id="quiz-select" onclick="quiz()">Take a Quiz!
                 </div>
@@ -118,7 +119,7 @@
             <i class="material-icons md-48" onclick='SidebarToggle()'>menu</i>
             <div id='sidebar'>
                 <button class='menu-button' id="home" onclick="sideHome(),SidebarClose()">Home</button>
-                <button class='menu-button' id="tut" onclick="SidebarClose()">Tutorial</button>
+                <button class='menu-button' id="tut" onclick="tutorial(),SidebarClose()">Tutorial</button>
                 <button class='menu-button' id="quiz-menu" onclick="quiz(),SidebarClose()">Take a Quiz!</button>
             </div>
         </div> 
@@ -141,11 +142,34 @@
         </div>
         <!-- Quiz end-->
 
+        <!-- Tutorial Start -->
+        <div id="tutorialpage">
+            <h1 id='tuthead'>Tutorial</h1>
+            <div id='tutorial'>
+                <div id='tutsteps'>
+                    <h2 id='step1'>Step 1: Choose the fallacy you want to learn about</h2>
+                    <h2 id='step2'>Step 2: Learn about the fallacy</h2>
+                    <h2 id='step3'>Step 3: Take a quiz!</h2>
+                    <h2 id='step4'>Hint: You can click the icon in the top left </br>to open navagation</h2>
+                </div>
+                <div id='tutimgs'>
+                    <img class="tut-image" id='imgstut' src='imgs/tut1.jpg'>
+                </div>
+            </div>
+            <div id='tutbuttons'>
+                <button class="tut-buttons" id='tutback' onclick='previousTut()'>Go Back</button>
+                <button class="tut-buttons" id='tuthome' onclick="sideHome()">Home</button>
+                <button class="tut-buttons" id='tutnext' onclick='nextTut()'>Next</button>
+            </div>
+        </div> 
+        <!-- Tutorial End -->
+
         <script src="appeal.js"></script>
         <script src='sidebar.js'></script>
         <script src="genetic.js"></script>
         <script src="strawman.js"></script>
         <script src="navigation.js"></script>
         <script src="quiz.js"></script>
+        <script src='tutorial.js'></script>
     </body>
 </html>
