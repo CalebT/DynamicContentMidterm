@@ -35,6 +35,10 @@ body, html{
 }
 
 .menu-button {
+    transition:left 1s
+}
+
+button{
     width: 200px;
     height: 75px;
     /* display: block;
@@ -51,6 +55,11 @@ body, html{
 #tut{
     background-color: #40E0D0
 }
+
 #quiz-menu{
+    background-color: #90EE90
+}
+
+#quiz{
     background-color: #90EE90
 }

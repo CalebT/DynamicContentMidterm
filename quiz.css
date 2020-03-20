@@ -1,9 +1,9 @@
 #quiz-body{
 	font-size: 18pt;
-    font-weight: 300;
-    text-align: center;
-    display: none;
-    margin-top: 10vh;
+  font-weight: 300;
+  text-align: center;
+  display: none;
+  margin-top: 10vh;
 }
 
 #quiz-title{
@@ -17,8 +17,8 @@
 }
 
 .quizImg {
-    width: 350px;
-    height: 300px;
+  width: 350px;
+  height: 300px;
 }
 
 .question{
@@ -35,13 +35,14 @@
   margin-bottom: 10px;
 }
 .quiz-button{
-	font-size: 22px;
+  font-size: 22px;
+  border: 2px solid white;
 	background-color: #C2F8B6;
-	border: 0px;
 	border-radius: 5px;
 	padding: 20px;
 	cursor: pointer;
-    position: relative;
+  position: relative;
+  margin: 10px;
 }
 
 .slide{
@@ -60,4 +61,10 @@
   position: relative;
   height: 200px;
   margin-top: 40px;
+}
+
+
+#quiz-button-container {
+  display: flex;
+  justify-content: center;
 }
