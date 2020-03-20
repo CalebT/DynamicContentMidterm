@@ -9,6 +9,7 @@ function sideHome() {
     document.querySelector("#strawman").style.display = "none";
     document.querySelector("#genetic").style.display = "none";
     document.querySelector("#appeal").style.display = "none";
+    document.querySelector("#quiz-body").style.display = "none";
 }
 
 function appeal() {
@@ -17,6 +18,7 @@ function appeal() {
     document.querySelector("#fallacyselector").style.display = "none";
     document.querySelector("#strawman").style.display = "none";
     document.querySelector("#genetic").style.display = "none";
+    document.querySelector("#quiz-body").style.display = "none";
 }
 
 function genetic() {
@@ -25,6 +27,7 @@ function genetic() {
     document.querySelector("#fallacyselector").style.display = "none";
     document.querySelector("#strawman").style.display = "none";
     document.querySelector("#genetic").style.display = "block";
+    document.querySelector("#quiz-body").style.display = "none";
 }
 
 function strawman() {
@@ -33,6 +36,7 @@ function strawman() {
     document.querySelector("#fallacyselector").style.display = "none";
     document.querySelector("#strawman").style.display = "block";
     document.querySelector("#genetic").style.display = "none";
+    document.querySelector("#quiz-body").style.display = "none";
 }
 
 
@@ -63,4 +67,13 @@ function nextFal3() {
 function prevFal3() {
     document.querySelector("#strawman").style.display = "none";
     document.querySelector("#genetic").style.display = "block";
+}
+
+function quiz() {
+    document.querySelector("#quiz-body").style.display = "block";
+    document.querySelector("#appeal").style.display = "none";
+    document.querySelector("#mainpage").style.display = "none";
+    document.querySelector("#fallacyselector").style.display = "none";
+    document.querySelector("#strawman").style.display = "none";
+    document.querySelector("#genetic").style.display = "none";
 }
