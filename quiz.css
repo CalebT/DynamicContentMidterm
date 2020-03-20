@@ -3,7 +3,7 @@
   font-weight: 300;
   text-align: center;
   display: none;
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
 
 #quiz-title{
@@ -13,7 +13,8 @@
   font-size: 40pt;
   display: flex;
   justify-content: center;
-  margin-top: 2vh; 
+  margin-top: 1vh;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .quizImg {

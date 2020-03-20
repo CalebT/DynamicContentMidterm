@@ -3,8 +3,9 @@
 }
 
 .page-title {
-    font-size: x-large;
-    margin-left: 8vw;
+    font-size: 48pt;
+    margin-left: 5vw;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .main-article {
