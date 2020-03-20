@@ -5,23 +5,27 @@
         <link href="tutorial.css" rel="stylesheet">
     </head>
     <body>
-        <div id="ham-menu"> Menu</div>
     <!-- Tutorial page Start -->
-        <div id="tutorial">
+        <div id="tutorialpage">
             <h1 id='tuthead'>Tutorial</h1>
-            <h4 id='step1'>Step 1: Choose the fallacy you want to learn about</h4>
-            <h4 id='step2'>Step 2: Learn about the fallacy</h4>
-            <h4 id='step3'>Step 3: Take a quiz!</h4>
-        <!-- Step 1 -->
-            <!-- <p>Select 1 fallacy you want to learn about</p> -->
-        <!-- Step 2 -->
-            <!-- <p>Fallacy name you chose</p> -->
-            <!-- <p>Switch between examples</p> -->
-            <!-- <p>Fallacy definition</p> -->
-        <!-- Step 1 -->
-            <!-- <p>Click the box beside your answer</p> -->
+            <div id='tutorial'>
+                <div id='tutsteps'>
+                    <h2 id='step1'>Step 1: Choose the fallacy you want to learn about</h2>
+                    <h2 id='step2'>Step 2: Learn about the fallacy</h2>
+                    <h2 id='step3'>Step 3: Take a quiz!</h2>
+                    <h2 id='step4'>Hint: You can click the icon in the top left to open navagation</h2>
+                </div>
+                <div id='tutimgs'>
+                    <img id='imgstut' src='imgs/tut1.jpg'>
+                </div>
+            </div>
+            <div id='tutbuttons'>
+                <button id='tutback' onclick='previousTut()'>Go Back</button>
+                <button id='tuthome'>Home</button>
+                <button id='tutnext' onclick='nextTut()'>Next</button>
+            </div>
         </div> 
     <!-- Tutorial page End -->
-
     </body>
+    <script src='tutorial.js'></script>
 </html>
