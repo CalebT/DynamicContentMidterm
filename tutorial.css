@@ -11,10 +11,11 @@
 }
 
 #tuthead{
-    font-size: 75pt;
+    font-size: 65pt;
     display:flex;
     justify-content: center;
     margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 h2{
