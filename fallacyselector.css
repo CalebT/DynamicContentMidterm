@@ -10,7 +10,7 @@
 }
 
 #option1 button {
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: #E4C7FE;
     border-radius: 5px;
     width: 13vw;
@@ -24,7 +24,7 @@
 }
 
 #option2 button {
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: #E4C7FE;
     border-radius: 5px;
     width: 13vw;
@@ -39,7 +39,7 @@
 
 
 #option3 button {
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: #E4C7FE;
     border-radius: 5px;
     width: 13vw;
@@ -57,6 +57,6 @@
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    filter: blur(5px);
+    filter: blur(2px);
 }
 

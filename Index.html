@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="genetic.css" rel="stylesheet">
         <link href="strawman.css" rel="stylesheet">
+        <link href="quiz.css" rel="stylesheet">
     </head>
     <body>
         
@@ -21,7 +22,7 @@
                 <div class="tpOptions">
                     <button id="tutorial">Tutorial!</button>
                     <button id="fallacies" onclick="learn()">Learn About Fallacies!</button>
-                    <button id="quiz">Take a Quiz!
+                    <button id="quiz-select" onclick="quiz()">Take a Quiz!
                 </div>
             </div>           
             <!-- Main page End -->
@@ -118,17 +119,33 @@
             <div id='sidebar'>
                 <button class='menu-button' id="home" onclick="sideHome(),SidebarClose()">Home</button>
                 <button class='menu-button' id="tut" onclick="SidebarClose()">Tutorial</button>
-                <button class='menu-button' id="quiz-menu" onclick="SidebarClose()">Take a Quiz!</button>
+                <button class='menu-button' id="quiz-menu" onclick="quiz(),SidebarClose()">Take a Quiz!</button>
             </div>
         </div> 
-            <!-- <div id='content' onclick='SidebarClose()'></div> -->
         
         <!-- Sidebar end -->
+
+        <!-- Quiz Start-->
+        <div id="quiz-body">
+            <h1 id="quiz-title">Fallacy Quiz!</h1>
+            <img class="quizImg" src="q2.png">
+            <div class="quiz-container">
+                <div id="quiz"></div>
+            </div>
+            <div id="quiz-button-container">
+                <button class="quiz-button" id="previous" onclick="previousImage4()">Previous Question</button>
+                <button class="quiz-button" id="next" onclick="nextImage4()">Next Question</button>
+                <button class="quiz-button" id="submit">Submit Quiz</button>
+            </div>
+            <div id="results"></div>
+        </div>
+        <!-- Quiz end-->
 
         <script src="appeal.js"></script>
         <script src='sidebar.js'></script>
         <script src="genetic.js"></script>
         <script src="strawman.js"></script>
         <script src="navigation.js"></script>
+        <script src="quiz.js"></script>
     </body>
 </html>

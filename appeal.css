@@ -1,9 +1,9 @@
 #appeal {
-    display: block;
+    display: none;
 }
 
-.page-title {
-    font-size: 70pt;
+.page-title h1{
+    font-size: 50pt;
     margin-left: 5vw;
 }
 
@@ -30,7 +30,7 @@
     border: 2px solid white;
     background-color: #E4C7FE;
     border-radius: 5px;
-    width: 13vw;
+    width: 14vw;
     height: 50px;
     padding: 5px;
     display: flex;

@@ -1,3 +1,22 @@
 #topheading {
     text-align: center;
 }
+
+.result-box {
+    background-color: #ADD;
+    
+}
+
+.buttons-style {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(160, 219, 72);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
